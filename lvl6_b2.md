@@ -1,0 +1,42 @@
+## **Clickthrough**
+## Level 6.b2
+
+#### Neu Gelerntes:
+<b>-</b>
+
+[comment]: <> (Was wurde gelernt und wie funktioniert die Technik?)
+
+#### HTML-Code:
+```
+<script>
+    // Remember only JavaScript goes inside <script> tags.
+    // This sets the button's text color to "blue".
+    var button = $("#theButton");
+    
+    // This function will run when the button is clicked.
+    function buttonClicked() {
+        // This sets the button's text color to "blue".
+        button.css("color", "blue");
+        // Set the button's "background-color" using .css()
+        button.css("background-color","red");
+    }
+    
+    // ".on()" is used to hook an event to an element.
+    // Now, the button will run the buttonClicked...
+    // ... function when "click"ed.
+    button.on("click", buttonClicked);
+</script>
+<style>
+    /* Remember only CSS rules go inside <style> tags. */
+    body {
+        text-align:center;
+    }
+    #theButton {
+        width: 500px;
+        height: 125px;
+        font-size: 3em;
+    }
+</style>
+<button id="theButton">I'm a button.</button>
+```
+![image](lvl6_b2.png)
