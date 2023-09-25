@@ -1,3 +1,3 @@
 # Testprojekt
 
-> Dies ist mein Testprojekt!
+> Dies ist mein Testprojekt
